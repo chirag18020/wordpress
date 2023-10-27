@@ -1,0 +1,75 @@
+2023-10-27T05:50:11+00:00 CRITICAL Uncaught TypeError: array_keys(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\wordpress\wp-admin\includes\class-wp-list-table.php:1535
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-admin\includes\class-wp-list-table.php(1535): array_keys(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-admin\includes\class-wp-list-table.php(1589): WP_List_Table->print_table_description()
+#2 C:\xampp\htdocs\wordpress\wp-admin\edit.php(495): WP_List_Table->display()
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-admin\includes\class-wp-list-table.php on line 1535
+
+2023-10-27T06:04:07+00:00 CRITICAL Unclosed '{' on line 440 in C:\xampp\htdocs\wordpress\wp-content\themes\EcomWp\functions.php on line 504
+
+2023-10-27T06:11:11+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "my_admin_order_columns" not found or invalid function name in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#1 C:\xampp\htdocs\wordpress\wp-admin\includes\screen.php(37): apply_filters('manage_edit-sho...', Array)
+#2 C:\xampp\htdocs\wordpress\wp-admin\includes\class-wp-screen.php(998): get_column_headers(Object(WP_Screen))
+#3 C:\xampp\htdocs\wordpress\wp-admin\includes\class-wp-screen.php(959): WP_Screen->show_screen_options()
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-header.php(281): WP_Screen->render_screen_meta()
+#5 C:\xampp\htdocs\wordpress\wp-admin\edit.php(407): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 310
+
+2023-10-27T06:11:19+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "my_admin_order_columns" not found or invalid function name in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#1 C:\xampp\htdocs\wordpress\wp-admin\includes\screen.php(37): apply_filters('manage_edit-sho...', Array)
+#2 C:\xampp\htdocs\wordpress\wp-admin\includes\class-wp-screen.php(998): get_column_headers(Object(WP_Screen))
+#3 C:\xampp\htdocs\wordpress\wp-admin\includes\class-wp-screen.php(959): WP_Screen->show_screen_options()
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-header.php(281): WP_Screen->render_screen_meta()
+#5 C:\xampp\htdocs\wordpress\wp-admin\edit.php(407): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 310
+
+2023-10-27T06:21:19+00:00 CRITICAL Uncaught Error: Call to undefined function remove_filters() in C:\xampp\htdocs\wordpress\wp-content\themes\EcomWp\functions.php:440
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-settings.php(600): include()
+#1 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\post.php(12): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\EcomWp\functions.php on line 440
+
+2023-10-27T06:21:19+00:00 CRITICAL Uncaught Error: Call to undefined function remove_filters() in C:\xampp\htdocs\wordpress\wp-content\themes\EcomWp\functions.php:440
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-settings.php(600): include()
+#1 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\EcomWp\functions.php on line 440
+
+2023-10-27T06:34:13+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\wordpress\wp-content\themes\EcomWp\functions.php:441
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): your_custom_field_function_name(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(483): do_action('woocommerce_adm...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 C:\xampp\htdocs\wordpress\wp-admin\includes\template.php(1443): WC_Meta_Box_Order_Data::output(Object(WP_Post), Array)
+#5 C:\xampp\htdocs\wordpress\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#6 C:\xampp\htdocs\wordpress\wp-admin\post.php(206): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\EcomWp\functions.php on line 441
+
+2023-10-27T06:34:40+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\wordpress\wp-content\themes\EcomWp\functions.php:441
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): your_custom_field_function_name(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(483): do_action('woocommerce_adm...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 C:\xampp\htdocs\wordpress\wp-admin\includes\template.php(1443): WC_Meta_Box_Order_Data::output(Object(WP_Post), Array)
+#5 C:\xampp\htdocs\wordpress\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#6 C:\xampp\htdocs\wordpress\wp-admin\post.php(206): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\EcomWp\functions.php on line 441
+

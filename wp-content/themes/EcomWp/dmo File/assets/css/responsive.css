@@ -1,0 +1,303 @@
+
+/* krunal sir-code  */
+
+@media only screen and (max-width: 1366px) {
+
+}
+@media only screen and (max-width: 1280px) {
+    
+}
+@media only screen and (max-width: 1153px) {
+   
+}
+@media only screen and (max-width: 1399px) {
+    .navbar {
+        padding: 0px 0;
+    }
+    .about-con h1 {
+        font-size: 45px;
+    }
+    .about-con h3 {
+        font-size: 25px;
+    }
+    .about-con p {
+        font-size: 18px;
+    }
+    .about-con {
+        width: 90%;
+    }
+    .images-all {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .las-bombas-box-2 {
+        width: 25%;
+        right: calc(100% - 690px);
+        top: 210px;
+    }
+    .las-bombas-box-3 {
+        width: 25%;
+        right: 0;
+        top: 0%;
+    }
+    .las-bombas-box-4 {
+        width: 25%;
+        position: absolute;
+        left: 50px;
+        top: calc(100% - -80px);
+    }
+    .las-bombas-box-5 {
+        width: 25%;
+        position: absolute;
+        right: 0px;
+        top: calc(100% - -150px);
+    }
+    .las-bombas-box-4 .las-bombas-img img {
+        width: 100%;
+    }
+    .las-bombas-con h3 {
+        font-size: 24px;
+    }
+    .bombas-sec {
+        position: relative;
+        min-height: 1180px;
+    }
+    .notice-box {
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    .gallery-main h2 {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .navbar {
+        padding: 0px 0;
+    }
+    .carousel-item {
+        height: 530px;
+    }
+    .about-con {
+        width: 100%;
+    }
+    .las-bombas-box-2 {
+        width: 25%;
+        right: calc(100% - 600px);
+        top: 210px;
+    }
+    .las-bombas-box-4 {
+        width: 32%;
+        left: 0px;
+        top: calc(100% - -80px);
+    }
+    .las-bombas-box-5 {
+        width: 30%;
+        right: 0px;
+        top: calc(100% - -180px);
+    }
+    .las-bombas-box-4 .las-bombas-img img {
+        width: 100%;
+    }
+    .las-bombas-con h3 {
+        font-size: 24px;
+    }
+    .bombas-sec {
+        position: relative;
+        min-height: 1120px;
+    }
+    .notice-box {
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    .gallery-main h2 {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    .footer-text p {
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .navbar {
+        padding: 0px 0;
+    }
+    .carousel-item {
+        height: 390px;
+        overflow: hidden;
+    }
+    .giphy-box-img {
+        right: 40px;
+        width: 20%; 
+    }
+    .content-box .offset-1{
+        margin-left: 0px;
+    }
+    .about-con h1 {
+        font-size: 45px;
+        font-weight: bold;
+    }
+    .about-con {
+        width: 100%;
+    }
+    .images-all {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .col-img {
+        height: 460px;
+        overflow: hidden;
+    }
+    .bombas-logo img {
+        width: 30%;
+    }
+    .las-bombas-box {
+        width: 100%;
+    }
+    .las-bombas-box-2 {
+        width: 45%;
+        position: absolute;
+        right: calc(100% - 45%);
+        top: 108%;
+    }
+    .las-bombas-box-3 {
+        width: 50%;
+        position: absolute;
+        right: 0;
+        top: calc(100% - 40%);
+    }
+    .las-bombas-box-4 {
+        width: 55%;
+        position: absolute;
+        left: 0px;
+        bottom: calc(100% - 10%);
+        top: calc(100% - -530px);
+    }
+    .las-bombas-box-5 {
+        width: 50%;
+        position: absolute;
+        right: 0px;
+        top: calc(100% - -73%);
+    }
+    .las-bombas-con {
+        margin-left: 20px;
+    }
+    .bombas-sec {
+        position: relative;
+        min-height: 1620px;
+    }
+    .notice-box {
+        margin-top: 120px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .gallery-main h2 {
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    .footer-text p{
+        text-align: center;
+    }
+    .social-icon ul {
+        padding: 0;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .navbar {
+        padding: 0px 0;
+    }
+    .carousel-item{
+        height: auto;
+    }
+    .giphy-box-img {
+        right: 40px;
+        width: 35%;
+    }
+    
+    .content-box .offset-1{
+        margin-left: 0px;
+    }
+    .about-con {
+        width: 100%;
+    }
+    .about-con h1 {
+        font-size: 35px;
+    }
+    .about-con h3 {
+        font-size: 18px;
+    }
+    .about-con p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .can-touch-img {
+        text-align: center;
+        padding-right: 0px;
+        padding-top: 30px;
+    }
+    .images-all {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .col-img {
+        height: 250px;
+        overflow: hidden;
+    }
+    .bombas-logo img {
+        width: 50%;
+    }
+    .las-bombas-box {
+        width: 100%;
+    }
+    .las-bombas-box-2 {
+        position: relative;
+        right: 0;
+        top: 40px;
+    }
+    .las-bombas-box-3 {
+        width: 100%;
+        position: relative;
+        top: 50px;
+    }
+    .las-bombas-box-4 {
+        position: relative;
+        left: 0px;
+        top: 50px
+    }
+    .las-bombas-box-5 {
+        position: relative;
+        right: 0px;
+        top: 50px;
+    }
+    .notice-logo img {
+        padding-left: 0;
+    }
+    .notice-box {
+        margin-top: 70px;
+    }
+    .gallery-main h2 {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+    .slider-nav {
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+    .footer-text p{
+        text-align: center;
+    }
+    .social-icon ul {
+        padding: 0;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .las-bombas-box-4 .las-bombas-img img {
+        width: 100%;
+    }
+}

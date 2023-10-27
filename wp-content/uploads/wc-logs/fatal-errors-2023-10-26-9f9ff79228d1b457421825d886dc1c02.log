@@ -1,0 +1,8 @@
+2023-10-26T11:45:14+00:00 CRITICAL Uncaught Error: Call to undefined function create_custom_order_programmatically() in C:\xampp\htdocs\wordpress\wp-content\themes\EcomWp\Payment.php:44
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\EcomWp\Payment.php on line 44
+
